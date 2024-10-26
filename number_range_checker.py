@@ -1,8 +1,15 @@
 # Create an empty list to store inputted numbers
+inputted_numbers = []
 
 # Create a list that only accepts numbers 1-50 and adds the current valid number to it
+acceptable_numbers = list(range(1, 51))
 
 # Initialize counters for each range
+first_range = 0
+second_range = 0
+third_range = 0
+fourth_range = 0
+fifth_range = 0
 
 # Create a while loop for the inputted number to check its validity
         # Ask user to input a number and convert it to integer
