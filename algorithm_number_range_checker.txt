@@ -1,0 +1,10 @@
+1. Use an array specifically list to store the sequence of valid input numbers.
+2. Create a variable for the acceptable numbers (1 to 50)
+3. Initialize range counters (first_range (1-10), second_range (11-20), third_range (21-30), fourth_range (31-40),
+fifth_range (41-50)), which will increment when an input falls within the respective range.
+4. Create a loop for the inputted number to implement a condition for its validity. 
+If the input is within the acceptable_numbers, append it to inputted_numbers and continue. 
+If not, print an error message and break the loop.
+5. For each valid input in inputted_numbers, check which range it falls into. 
+Increment the appropriate range counter (e.g., add 1 to first_range if it’s between 1 and 10).
+6. Display the number of inputs in each range.
