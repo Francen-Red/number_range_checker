@@ -26,10 +26,29 @@ while True:
         break
 
 # Create a for loop to iterate over each number in the list
+for input_number in inputted_numbers:
     # Use if-statements to check which range the current number falls into
-    # Increment to corresponding range counter
+    if 1 <= input_number <= 10:
+        first_range += 1            # Increment to corresponding range counter
+    elif 11 <= input_number <= 20:
+        second_range += 1           # Increment to corresponding range counter
+    elif 21 <= input_number <= 30:
+        third_range += 1            # Increment to corresponding range counter
+    elif 31 <= input_number <= 40:
+        fourth_range += 1           # Increment to corresponding range counter
+    elif 41 <= input_number <= 50:
+        fifth_range += 1            # Increment to corresponding range counter
 
 # Display the number of input for each range
+print("\nNumber of valid input in each range:")
+print("Range of 1-10:", first_range)
+print("Range of 11-20:", second_range)
+print("Range of 21-30:", third_range)
+print("Range of 31-40:", fourth_range)
+print("Range of 41-50:", fifth_range)
+
+
+
 
        
 
