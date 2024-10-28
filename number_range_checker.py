@@ -39,7 +39,7 @@ for input_number in inputted_numbers:
     elif 41 <= input_number <= 50:
         fifth_range += 1            # Increment to corresponding range counter
 
-# Define text colors 1
+# Define text colors
 blue_color = "\033[94m"
 purple_color = "\033[95m"
 green_color = "\033[92m"
@@ -51,7 +51,7 @@ print(f"{blue_color}Range of 1-10: {green_color}{first_range}")
 print(f"{blue_color}Range of 11-20: {green_color}{second_range}")
 print(f"{blue_color}Range of 21-30: {green_color}{third_range}")
 print(f"{blue_color}Range of 31-40: {green_color}{fourth_range}")
-print(f"{blue_color}Range of 41-50: {green_color}{fifth_range}{reset_colo}")
+print(f"{blue_color}Range of 41-50: {green_color}{fifth_range}{reset_color}")
 
 
        
